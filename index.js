@@ -18,7 +18,5 @@ if (xpHeroi < 1000) {
 } else if (xpHeroi >= 9001 && xpHeroi <= 10000) {
   nivel = "Imortal";
 } else {
-  nivel = "Radiante";
 }
-
-console.log(`O Herói de nome ${nomeHeroi} está no nível de ${nivel}`);
+console.log(`O Herói de nome ${Valber} está no nível de ${10001}`);
