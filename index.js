@@ -1,8 +1,6 @@
 const nomeHeroi = "Valber";
-const xpHeroi = 10001;
-
+const xpHeroi = 10000;
 let nivel;
-
 if (xpHeroi < 1000) {
   nivel = "Ferro";
 } else if (xpHeroi >= 1001 && xpHeroi <= 2000) {
@@ -17,6 +15,5 @@ if (xpHeroi < 1000) {
   nivel = "Ascendente";
 } else if (xpHeroi >= 9001 && xpHeroi <= 10000) {
   nivel = "Imortal";
-} else {
 }
-console.log(`O Herói de nome ${Valber} está no nível de ${10001}`);
+console.log(`O Herói de nome ${nomeHeroi} está no nível de ${nivel}`);
